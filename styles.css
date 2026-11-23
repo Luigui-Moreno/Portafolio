@@ -1,0 +1,75 @@
+/* Importar la misma fuente del portafolio principal */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contenedor-lectura {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Estilo del botón regresar */
+.btn-regresar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.btn-regresar:hover {
+    transform: translateX(-5px);
+    color: #2980b9 !important;
+}
+
+/* Títulos */
+.lectura-titulo-box {
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.lectura-titulo-box h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.contenido-trabajo h4 {
+    color: #000000;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Párrafos de análisis */
+.texto-analisis {
+    font-size: 20px;
+    color: #4a5568;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Arreglo para las listas (Pregunta 3) */
+.texto-analisis li {
+    list-style: none;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.texto-analisis li::before {
+    content: '•';
+    color: #4a5568;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
